@@ -1,9 +1,9 @@
 <?php
 
-namespace SmartDbOptimizer\Commands;
+namespace AshokDevatwal\SmartDbOptimizer\Commands;
 
 use Illuminate\Console\Command;
-use SmartDbOptimizer\Models\QueryLog;
+use AshokDevatwal\SmartDbOptimizer\Models\QueryLog;
 
 class AnalyzeQueries extends Command
 {

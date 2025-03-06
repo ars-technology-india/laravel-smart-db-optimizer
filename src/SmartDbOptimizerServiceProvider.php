@@ -1,9 +1,9 @@
 <?php
 
-namespace SmartDbOptimizer;
+namespace AshokDevatwal\SmartDbOptimizer;
 
 use Illuminate\Support\ServiceProvider;
-use SmartDbOptimizer\Middleware\QueryLogger;
+use AshokDevatwal\SmartDbOptimizer\Middleware\QueryLogger;
 
 class SmartDbOptimizerServiceProvider extends ServiceProvider
 {
@@ -19,8 +19,8 @@ class SmartDbOptimizerServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \SmartDbOptimizer\Commands\AnalyzeQueries::class,
-                \SmartDbOptimizer\Commands\SuggestIndexes::class,
+                \AshokDevatwal\SmartDbOptimizer\Commands\AnalyzeQueries::class,
+                \AshokDevatwal\SmartDbOptimizerr\Commands\SuggestIndexes::class,
             ]);
         }
 

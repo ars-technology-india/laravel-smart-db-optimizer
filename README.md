@@ -19,7 +19,7 @@
 ### Step 1: Install via Composer
 
 ```sh
-composer require ashokdevatwal/smart-db-optimizer
+composer require ashokdevatwal/laravel-smart-db-optimizer
 ```
 
 ### Step 2: Publish Configurations

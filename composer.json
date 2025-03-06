@@ -1,7 +1,30 @@
 {
+    "name": "ashokdevatwal/smart-db-optimizer",
+    "description": "Laravel Smart Database Optimizer is a package designed to help developers identify slow queries, suggest optimizations, and recommend indexes to improve database performance.",
+    "type": "library",
+    "keywords": ["laravel", "db", "optimizer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashok Devatwal",
+            "email": "ashokdev78@gmail.com"
+        }
+    ],
+     "extra": {
+        "laravel": {
+            "providers": [
+                "AshokDevatwal\\SmartDbOptimizer\\SmartDbOptimizerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^8.0|^9.0|^10.0|^11.0"
+    },
     "autoload": {
         "psr-4": {
-            "SmartDbOptimizer\\": "packages/smart-db-optimizer/src/"
+            "AshokDevatwal\\SmartDbOptimizer\\": "src/"
         }
     }
 }

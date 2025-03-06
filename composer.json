@@ -1,0 +1,7 @@
+{
+    "autoload": {
+        "psr-4": {
+            "SmartDbOptimizer\\": "packages/smart-db-optimizer/src/"
+        }
+    }
+}

@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartDbOptimizer\Models;
+namespace AshokDevatwal\SmartDbOptimizer\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

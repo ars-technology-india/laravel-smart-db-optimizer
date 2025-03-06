@@ -19,7 +19,7 @@
 ### Step 1: Install via Composer
 
 ```sh
-composer require smart-db-optimizer
+composer require ashokdevatwal/smart-db-optimizer
 ```
 
 ### Step 2: Publish Configurations

@@ -1,10 +1,10 @@
 <?php
 
-namespace SmartDbOptimizer\Middleware;
+namespace AshokDevatwal\SmartDbOptimizer\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\DB;
-use SmartDbOptimizer\Models\QueryLog;
+use AshokDevatwal\SmartDbOptimizer\Models\QueryLog;
 
 class QueryLogger
 {

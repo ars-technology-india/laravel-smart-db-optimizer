@@ -44,7 +44,7 @@ If you want to log queries globally, add this to your `app/Http/Kernel.php` file
 
 ```php
 protected $middleware = [
-    \SmartDbOptimizer\Middleware\QueryLogger::class,
+    \AshokDevatwal\SmartDbOptimizer\Middleware\QueryLogger::class,
 ];
 ```
 

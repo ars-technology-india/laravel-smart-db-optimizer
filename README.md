@@ -1,11 +1,12 @@
 # Laravel Smart Database Optimizer
+[![Latest Version](https://img.shields.io/packagist/v/ashokdevatwal/laravel-smart-db-optimizer.svg?style=flat-square)](https://packagist.org/packages/ashokdevatwal/laravel-smart-db-optimizer)
+[![Total Downloads](https://img.shields.io/packagist/dt/ashokdevatwal/laravel-smart-db-optimizer.svg?style=flat-square)](https://packagist.org/packages/ashokdevatwal/laravel-smart-db-optimizer)
+[![License](https://img.shields.io/github/license/ars-technology-india/laravel-smart-db-optimizer.svg?style=flat-square)](LICENSE)
 
 **Laravel Smart Database Optimizer** is a package designed to help developers identify slow queries, suggest optimizations, and recommend indexes to improve database performance.
 
 ---
-[![Latest Version](https://img.shields.io/packagist/v/ashokdevatwal/laravel-smart-db-optimizer.svg?style=flat-square)](https://packagist.org/packages/ashokdevatwal/laravel-smart-db-optimizer)
-[![Total Downloads](https://img.shields.io/packagist/dt/ashokdevatwal/laravel-smart-db-optimizer.svg?style=flat-square)](https://packagist.org/packages/ashokdevatwal/laravel-smart-db-optimizer)
-[![License](https://img.shields.io/github/license/ars-technology-india/laravel-smart-db-optimizer.svg?style=flat-square)](LICENSE)
+
 
 ## 🚀 Features
 

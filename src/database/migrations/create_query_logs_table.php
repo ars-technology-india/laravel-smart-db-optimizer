@@ -12,6 +12,7 @@ return new class extends Migration {
             $table->text('query');
             $table->text('bindings');
             $table->integer('time');
+            $table->timestamp('executed_at')->useCurrent();
             $table->timestamps();
         });
     }

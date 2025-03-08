@@ -10,11 +10,11 @@
 
 ## 🚀 Features
 
-✅ Logs slow queries automatically
-✅ Provides CLI commands for analysis
-✅ Suggests indexes based on query patterns
-✅ Includes middleware for real-time query tracking
-✅ Simple installation and configuration
+- ✅ Logs slow queries automatically
+- ✅ Provides CLI commands for analysis
+- ✅ Suggests indexes based on query patterns
+- ✅ Includes middleware for real-time query tracking
+- ✅ Simple installation and configuration
 
 ---
 

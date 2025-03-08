@@ -27,12 +27,14 @@ class QueryLogger
                     'executed_at' => now(),
                 ]);
             }
-            
-            $existingQuery = QueryLog::where('query', $sql)->first();
-            $cacheDuration = $existingQuery ? QueryLog::suggestCacheDuration($existingQuery->count()) : 0;
 
-            if ($cacheDuration > 0) {
-                QueryLog::autoCacheQuery($sql, json_encode($query->bindings), $cacheDuration);
+            if( config('smartdb.auto_cache') ) {
+                $existingQuery = QueryLog::where('query', $sql)->first();
+                $cacheDuration = $existingQuery ? QueryLog::suggestCacheDuration($existingQuery->count()) : 0;
+
+                if ($cacheDuration > 0) {
+                    QueryLog::autoCacheQuery($sql, json_encode($query->bindings), $cacheDuration);
+                }
             }
             
         });

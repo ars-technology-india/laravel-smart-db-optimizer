@@ -20,7 +20,7 @@ class SmartDbOptimizerServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 \AshokDevatwal\SmartDbOptimizer\Commands\AnalyzeQueries::class,
-                \AshokDevatwal\SmartDbOptimizerr\Commands\SuggestIndexes::class,
+                \AshokDevatwal\SmartDbOptimizer\Commands\SuggestIndexes::class,
             ]);
         }
 

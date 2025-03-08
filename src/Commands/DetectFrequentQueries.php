@@ -19,10 +19,12 @@ class DetectFrequentQueries extends Command
             return 0;
         }
 
-        $this->info("Frequently Executed Queries:");
+        $this->info("Frequently Executed Queries & Caching Recommendations:");
         foreach ($queries as $query) {
+            $cacheTime = QueryLog::suggestCacheDuration($query->count);
             $this->line("Query: " . $query->query);
             $this->line("Executions: " . $query->count);
+            $this->line("Recommended Cache Duration: " . ($cacheTime > 0 ? $cacheTime . ' seconds' : 'No caching needed'));
             $this->line("----------------------");
         }
 

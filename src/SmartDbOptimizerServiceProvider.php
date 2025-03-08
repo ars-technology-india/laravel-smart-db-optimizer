@@ -26,6 +26,7 @@ class SmartDbOptimizerServiceProvider extends ServiceProvider
             $this->commands([
                 \AshokDevatwal\SmartDbOptimizer\Commands\AnalyzeQueries::class,
                 \AshokDevatwal\SmartDbOptimizer\Commands\SuggestIndexes::class,
+                \AshokDevatwal\SmartDbOptimizer\Commands\DetectFrequentQueries::class,
             ]);
         }
 

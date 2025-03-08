@@ -24,6 +24,7 @@ class QueryLogger
                     'query' => $query->sql,
                     'bindings' => json_encode($query->bindings),
                     'time' => $query->time,
+                    'executed_at' => now(),
                 ]);
             }
         });
